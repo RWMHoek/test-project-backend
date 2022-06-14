@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend logic for the test project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RWMHoek/test-project.git"
+  },
+  "author": "Rob Hoek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RWMHoek/test-project/issues"
+  },
+  "homepage": "https://github.com/RWMHoek/test-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
